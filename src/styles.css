@@ -56,6 +56,13 @@ body {
   padding: 0;
 }
 
+.board,
+.reset {
+  padding: 20px;
+}
+
+
+
 .square {
   background: #fff;
   border: 3px solid #000;
@@ -80,6 +87,7 @@ body {
 .status {
   margin-bottom: 10px;
 }
+
 .game {
   display: flex;
   flex-direction: row;
@@ -88,4 +96,3 @@ body {
 .game-info {
   margin-left: 20px;
 }
-
